@@ -1,0 +1,19 @@
+{
+  "name": "grep-open-graph",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.17.0",
+    "cheerio": "^1.0.0-rc.2",
+    "iconv": "^2.3.0",
+    "lodash": "^4.17.4",
+    "moment": "^2.19.1"
+  },
+  "devDependencies": {
+    "mocha": "^4.0.1"
+  }
+}
