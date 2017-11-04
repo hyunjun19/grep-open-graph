@@ -6,7 +6,7 @@ grep open-graph lib
 $ npm install --save grep-open-graph
 ```
 
-## Usage
+## How to use
 ### 기본 추출 필드
 ./lib/fields.js 파일 참조
 

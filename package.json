@@ -1,10 +1,22 @@
 {
   "name": "grep-open-graph",
-  "version": "0.1.0",
-  "description": "",
+  "version": "0.1.1",
+  "description": "grep open-graph meta and custom fields by CSS selector",
   "main": "index.js",
   "scripts": {},
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyunjun19/grep-open-graph.git"
+  },
+  "keywords": [
+    "open graph",
+    "css selector",
+    "meta",
+    "property",
+    "og",
+    "twitter"
+  ],
+  "author": "HJ.Park<hyunjun19@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "axios": "^0.17.0",
