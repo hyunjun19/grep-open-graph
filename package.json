@@ -3,7 +3,9 @@
   "version": "0.1.2",
   "description": "grep open-graph meta and custom fields by CSS selector",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha test"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hyunjun19/grep-open-graph.git"
