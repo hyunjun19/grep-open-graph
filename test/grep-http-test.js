@@ -30,8 +30,8 @@ const customFields = [
 ];
 
 describe('HTTP TEST', () => {
-    it('네이버 블로그 HTTP(MS949) 테스트', (done) => {
-        grepHttpOpenGraph(naverBlogUrl, customFields, 'CP949')
+    it('네이버 블로그 HTTP 테스트', (done) => {
+        grepHttpOpenGraph(naverBlogUrl, customFields)
             .then((openGraphObj) => {
                 // console.log('\n\n### NaverBlog ###\n', openGraphObj);
 
@@ -43,7 +43,7 @@ describe('HTTP TEST', () => {
             .catch((err) => done(err));
     });
 
-    it('가자고 딜뷰 HTTP(UTF-8) 테스트', (done) => {
+    it('가자고 딜뷰 HTTP 테스트', (done) => {
         grepHttpOpenGraph(gajagoDealUrl, customFields)
             .then((openGraphObj) => {
                 // console.log('\n\n### GajagoDeal ###\n', openGraphObj);
