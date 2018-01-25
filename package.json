@@ -1,6 +1,6 @@
 {
   "name": "grep-open-graph",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "grep open-graph meta and custom fields by CSS selector",
   "main": "index.js",
   "scripts": {
